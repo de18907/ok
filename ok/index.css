@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#logo{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#logo:hover{
+    position: relative;
+    top: 1px;
+    animation-name: logo;
+    animation-duration: 2s;
+}
+#menu ul{
+    list-style: none; 
+}
+#menu ul li{
+    display:inline;
+    position: relative;
+    top: 40px;
+    background-color: rgb(0, 0, 0);   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-top: 2px solid lightblue;
+    border-left: 2px solid lightblue;
+    box-shadow: 2px 2px  rgb(247, 61, 120);
+}
+#menu ul li:hover{
+    top: 39px;
+    border-top: 2px solid rgb(247, 61, 120);
+    border-left: 2px solid rgb(247, 61, 120);
+    box-shadow: 2px 2px lightblue;
+}
+#menu ul li a{
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#medio{
+    display: flex;
+}
+#main{
+    width: 70%;
+    margin-top: 25%;
+}
+/*
+#img_servicios{
+    width: 100%;
+    height: 100%;
+}
+aside{
+    position: fixed;
+    left: 69%;
+    width: 30%;
+    margin-top: 10%;
+}
+.contenido {
+    background-color: rgb(0, 0, 0);   
+    border-top: 12px solid lightblue;
+    border-left: 12px solid lightblue;
+    box-shadow: 12px 12px  rgb(247, 61, 120);
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+article{
+    display: flex;
+    flex-direction: column;
+}
+#caja_contenido_servicio{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+.contenido_servicio{
+    display: flex;
+    padding: 10px;
+    color: white;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);  
+    border-top: 12px solid lightblue;
+    border-left: 12px solid lightblue;
+    box-shadow: 12px 12px  rgb(247, 61, 120);
+    margin-left: 5%;
+    margin-right: 5%;
+    transition-duration: 0.5s;
+}
+.contenido_servicio:hover{
+    border-top: 12px solid black;
+    border-left: 12px solid black;
+    box-shadow: 12px 12px  black;
+    transition-duration: 0.5s;
+}
+
+#text_inf_servicio{
+    text-align: center;
+}
+.li{
+    padding-left: 50px;
+}
+.titulo{
+    font-size: 40px;
+    text-align: center;
+    background: black;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    border: white solid 1px;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-container {
+    display: flex;
+    padding-top: 4%;
+    padding-left: 4%;
+}
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-section.form form {
+    display: flex;
+    flex-direction: column;
+}
+*/
+
+#img_footer{
+    float: right;
+    width: 100%;
+    margin-top: -13%;
+    /*
+    position: relative;
+    z-index: 2;
+    top: -500px;
+    */
+}
+
+/*Animaciones del logo*/
+@keyframes logo{
+    0% {top: 0px;}5% {top: 1px;}
+    10% {top: 0px;}15% {top: 1px;}
+    20% {top: 0px;}25% {top: 1px;}
+    30% {top: 0px;}35% {top: 1px;}
+    40% {top: 0px;}45% {top: 1px;}
+    50% {top: 0px;}55% {top: 1px;}
+    60% {top: 0px;}65% {top: 1px;}
+    70% {top: 0px;}75% {top: 1px;}
+    80% {top: 0px;}85% {top: 1px;}
+    90% {top: 0px;}95% {top: 1px;}
+    100% {top: 0px;}
+}
+/*responsive Celuar*/
+@media (max-width: 800px) {
+    nav {
+      flex-direction: column;
+    }
+}

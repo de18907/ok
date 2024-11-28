@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=”robots” content="index, follow">
+    <meta name="keywords" content="ViralVision, Viral Vision, Vision Viral, Viral, Vision, ViralVisión, Viral Visión, Visión Viral, Viral, Visión">
+    <meta name="description" content="Análisis predictivos de tendencias y comportamientos en la plataforma TikTok">
+    <meta name="author" content="Sergio Minaya y Joseph Alvarez">
+    <link rel="icon" type="image/x-icon" href="img/Logo.png" >
+    <link rel="stylesheet" href="index.css">
+    <title>ViralVision</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <a href="#inicio"><img src="img/logo.png" width="100px" height="55px" alt="ViralVision"/></a>
+                <h1>ViralVision</h1>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div  id="medio">
+        <main>
+            <section id="inicio">
+            </section>
+            <section id="nosotros">
+                <article>
+                    <h2 class="titulo">Sobre Nosotros</h2>
+                    <div class="contenido">
+                        <div>
+                            <h3>Viral Vision</h3>
+                            Mantiene a disposición los reportes enfocados en los análisis predictivos
+                            de tendencias y comportamientos en la plataforma TikTok administrado por el área de
+                            mercadeo. Utilizando la API oficial de TikTok, ViralVision permite acceder a datos de
+                            contenido y usuarios, con el fin de identificar patrones, predecir la viralidad de publicaciones y
+                            optimizar estrategias de marketing digital. Esta herramienta está diseñada para ayudar a
+                            creadores de contenido y marcas a maximizar su impacto en la plataforma, tomando
+                            decisiones basadas en datos y análisis avanzados.
+                        </div>
+                    </div>
+                    <img src="img/fondo.png" alt="">
+                </article>
+            </section>
+            <section id="servicios">
+                <article>
+                    <h2 class="titulo">Servicios</h2>
+                    <div class="contenido">
+                        <h3 id="text_inf_servicio">Enfocados en aspectos del análisis predictivo y la optimización de contenido.</h3>
+                    </div>
+                    <div id="caja_contenido_servicio">
+                        <div class="contenido_servicio" onclick="servicio(1)">
+                            <a href="#contacto"><h2>Análisis de Tendencias Personalizadas</h2></a>
+                        </div>
+                        <div class="contenido_servicio" onclick="servicio(2)">
+                            <a href="#contacto"><h2>Reportes de Viralidad de Contenidos</h2></a>
+                        </div>
+                        <div class="contenido_servicio" onclick="servicio(3)">
+                            <a href="#contacto"><h2>Optimización de Estrategias de Contenido</h2></a>
+                        </div>
+                    </div>
+                    <div id="caja_contenido_servicio">
+                        <div class="contenido_servicio" onclick="servicio(4)">
+                            <a href="#contacto"><h2>Monitoreo de Competencia</h2></a>
+                        </div>
+                        <div class="contenido_servicio" onclick="servicio(5)">
+                            <a href="#contacto"><h2>Visualización de Datos en Tiempo Real</h2></a>
+                        </div>
+                        <div class="contenido_servicio" onclick="servicio(6)">
+                            <a href="#contacto"><h2>Consultoría en Estrategia de Crecimiento</h2></a>
+                        </div>
+                    </div>
+                    <div id="caja_contenido_servicio">
+                    </div>
+                    <div class="contenido">
+                        <h3>Alcance</h3>
+                        <div class="li">
+                            <ul>
+                                <li>Datos Analizados: Videos, hashtags, y perfiles de usuarios en TikTok.</li>
+                                <li>Modelos Predictivos: Implementación de modelos de aprendizaje automático para prever la viralidad del contenido.</li>
+                                <li>Visualización: Creación de dashboards y reportes interactivos para visualizar y entender los resultados del análisis.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <aside>
+            <section>
+                <article>
+                    <h2 class="titulo">Novedades</h2>
+                    <img id="img_servicios" src="img/images.png" alt="pagina para desarrolladores">
+                </article>
+            </section>
+        </aside>
+    </div>
+    <footer>
+        <!--Aqui informacion de formulario para enviar al correo mersaje por si esta interesado en ViralVision-->
+        <section class="footer-container" id="contacto">
+            <div class="footer-section info">
+                <p><h3>Telefono</h3>829-756-2345</p>
+                <p><h3>Correo</h3> info@viralvision.com</p>
+                <p><h3>Direcion</h3> Avenida Alma Mater.<br>Apartado Postal 1355 SANTO DOMINGO</p>
+            </div>
+
+            <div class="footer-section form">
+                <h3>Solicitar mas información</h3>
+                <form action="sergiosanh1907@gmail.com" id="formulario_footer" onsubmit="" method="GET">
+                    <label for="correo">Correo: </label>
+                    <input type="eamail" id="correo"><br>
+                    <label class="caja_texto_grande" for="descripcion">Descripcion: </label>
+                    <textarea id="descripcion"></textarea><br>
+                    <input type="submit" onclick="enviar_correo()">
+                </form>
+            </div>
+
+            <div class="footer-section image">
+                <img id="img_footer" src="img/TikTok_Blog.gif" alt="">
+            </div>
+        </section>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
